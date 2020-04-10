@@ -1,0 +1,32 @@
+body{
+	background-color: darkkhaki;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	color: aqua;
+	text-align: center;
+	background-color: brown;
+	font-weight: bolder;
+}
+h2{
+	background-color: deeppink;
+	color: dimgrey;
+	text-align: center;
+}
+
+ul{
+	list-style-type: square;
+	background-color: gray;
+}
+ul li,ol li{
+	color: darkorange;
+}
+ol{
+	list-style-type: upper-latin;
+	background-color: indigo ;
+}
+p{
+	background-color: aquamarine;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}

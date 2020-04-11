@@ -1,32 +1,44 @@
-body{
-	background-color: darkkhaki;
-	font-family: Arial, Helvetica, sans-serif;
-}
-h1{
-	color: aqua;
-	text-align: center;
-	background-color: brown;
-	font-weight: bolder;
-}
-h2{
-	background-color: deeppink;
-	color: dimgrey;
-	text-align: center;
+body {
+    background-color: darkkhaki;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul{
-	list-style-type: square;
-	background-color: gray;
+h1 {
+    color: aqua;
+    text-align: center;
+    background-color: brown;
+    font-weight: bolder;
 }
-ul li,ol li{
-	color: darkorange;
+
+h2 {
+    background-color: deeppink;
+    color: dimgrey;
+    text-align: center;
 }
-ol{
-	list-style-type: upper-latin;
-	background-color: indigo ;
+
+ul {
+    list-style-type: square;
+    background-color: gray;
 }
-p{
-	background-color: aquamarine;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+
+ul li,
+ol li {
+    color: darkorange;
+}
+
+ol {
+    list-style-type: upper-latin;
+    background-color: indigo;
+}
+
+p {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ol {
+    border-radius: 5px;
+    border-bottom: 5px red;
+    border-bottom-style: double;
 }

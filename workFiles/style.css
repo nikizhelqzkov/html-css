@@ -58,3 +58,13 @@ th,
 td {
     border: 3px solid black;
 }
+
+table {
+    margin: auto;
+}
+
+.list_1 {}
+
+.list_2 {}
+
+#list_id {}

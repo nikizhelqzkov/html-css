@@ -56,7 +56,8 @@ div {
     padding: 0px;
     list-style-type: none;
     background-color: DarkRed;
-    width: 40%;
+    width: 20%;
+    overflow: hidden;
 }
 
 #vrhover li a {
@@ -64,7 +65,8 @@ div {
     color: LightGray;
     padding: 15px 15px;
     text-decoration: none;
-    width: 82%;
+    overflow: hidden;
+    width: 100%;
 }
 
 #vrhover li a:hover {
@@ -78,6 +80,8 @@ div {
     background-color: DarkRed;
     margin: 0px;
     padding: 0px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #horizontal li a {

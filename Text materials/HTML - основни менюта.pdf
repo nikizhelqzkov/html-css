@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Урок 5</title> 
+	<style type="text/css">
+		body{
+			background-color: white;
+			font-family: Calibri;
+			margin: 15%;
+
+			margin-top: 2px;
+			padding: 0px;
+		}
+		div{
+			background-color: LightGray;
+			padding: 5px;
+		}
+		#main{
+			 overflow: hidden;
+			 list-style-type: none;
+			 background-color: Black;
+			 margin: 0px;
+			 padding: 0px;
+		}
+		#main li a{
+
+			 display: block;
+ 			 color: White;
+ 			 padding: 15px 15px;
+ 			 text-decoration: none;
+		}
+		#main li a:hover{
+			font-weight: bold;
+			background-color: DarkGray;
+		}
+		#main li{
+				float: left;}
+
+		#vertical{
+			 list-style-type: none;
+			 background-color: DarkRed;
+			 width: 200px;
+			 margin: 0px;
+			 padding: 0px;
+		}
+		#vertical li a{
+
+			 display: block;
+ 			 color: LightGray;
+ 			 padding: 15px 15px;
+ 			 text-decoration: none;
+		}
+
+		#vrhover{
+	
+			 padding: 0px;
+			 list-style-type: none;
+			 background-color: DarkRed;
+			 width: 200px;
+		}
+		#vrhover li a{
+
+			 display: block;
+ 			 color: LightGray;
+ 			 padding: 15px 15px;
+ 			 text-decoration: none;
+		}
+		#vrhover li a:hover{
+			font-weight: bold;
+			background-color: FireBrick;
+		}
+
+		#horizontal{
+			 overflow: hidden;
+			 list-style-type: none;
+			 background-color: DarkRed;
+			 margin: 0px;
+			 padding: 0px;
+		}
+		#horizontal li a{
+
+			 display: block;
+ 			 color: LightGray;
+ 			 padding: 15px 15px;
+ 			 text-decoration: none;
+		}
+		#horizontal li a:hover{
+			font-weight: bold;
+			background-color: FireBrick;
+		}
+		#horizontal li{
+				float: left;
+		}
+		
+
+		pre{
+			max-width: 500px;
+			background-color: white;
+			border:double DarkRed ;
+		}
+		#header{
+			width: 100%;
+			height: 150px;
+		}
+		hr{
+			border: DarkRed dashed 2px;
+		}
+		#home{
+			width: 100px;
+			position: fixed;
+			right: 180px;
+			bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<img id="header" src="https://theblogboutique.com/wp-content/uploads/2010/07/free-header-art-red-and-black-940-x-198.jpg">
+	<ul id="main">
+	 	<li><a href="#1"> Как се прави основно меню </a></li>
+	 	<li><a href="#2">Вертикално меню</a></li>
+	 	<li><a href="#3">Добавяне на ефекти</a></li>
+	 	<li><a href="#4">Хоризонтално меню</a></li>
+	 </ul>
+	<h1>Добавяне на навигация в сайта и стилизиране на менюта</h1>
+
+	<h2 id="1">Какво представлява основното меню?</h2>
+	<p>Всеки сайт, който е състои от повече страници - например <em>страница за контакти, за въпроси и отговори, допълнителна информация и др.</em>, има нужда от поле, в което да оргавизира съдържанието си - обикновено това е менюто. Менюто може да се намира в горната част на сайта, отляво, отдолу и т.н. Всеки един бутон от менюто обикновено ви пренасочва към страницата, към която искате да отидете. Това се осъществява чрез линкове(връзка или препратка към друг елемент).</p>
+	<br>
+	<h4>Какво ще учим този урок?</h4>
+	<p>Какво всъщност представляват менютата - това са просто списъци, където вместо елементи от списъка имаме линкове-всичко това сме го учили. Но днес ще се научим как да стилизираме едно меню като направим два варианта - хоризонтален и вертикален, за да видим каква е разликата в писането на стиловете.</p>
+
+	<h4>Но нека започнем с едно лесно упражнение!</h4>
+	<p>Нека направим <strong> неномериран списък</strong>, който всъщност да  изброява какви са другите страници на нашия сайт. Например имаме сайт за рецепти - тогава се нуждаем от следните страници: <strong>Начална страница, Основни ястия, Салати, Десерти, Супи. </strong> <br> След това трябва да превърнем <strong>всеки един елемент в линк</strong>, като поставим елементите <em>li</em>  между таговете &lt;a href=""> и &lt;/a>. Така те ще се превърнат в линкове. В пространството между кавичките "" поставяте адресите на страниците, към които искате да ви препратят.(&lt;a href="https://www.youtube.com"> <a href="https://www.youtube.com"> Линк към YouTube</a> &lt;/a>) <br> Списъкът ни трябва да изглежда така:</p>
+	 <ul>
+	 	<li><a href=""> Начална страница </a></li>
+	 	<li><a href="">Основни ястия</a> </li>
+	 	<li><a href=""> Салати </a></li>
+	 	<li> <a href=""> Десерти </a></li>
+	 	<li><a href=""> Супи</a></li>
+	 </ul>
+
+	<p>Какво написахме като код:</p>
+	<pre> 
+	&lt;ul&gt;
+	 	&lt;li&gt; &lt;a href=""> Начална страница &lt;/a>&lt;/li&gt;
+	 	&lt;li&gt; &lt;a href="">Основни ястия&lt;/a>&lt;/li&gt;
+	 	&lt;li&gt; &lt;a href="">Салати&lt;/a>&lt;/li&gt;
+	 	&lt;li&gt; &lt;a href="">Десерти&lt;/a>&lt;/li&gt;
+	 	&lt;li&gt; &lt;a href="">Супи&lt;/a>&lt;/li&gt;
+	 &lt;/ul&gt;
+	</pre>
+	 <hr>
+
+<h2 id="2">Стилизиране на списъци</h2>
+
+	 <p>Как обаче да направим менюто така, че да изглежда по-добре? Ще трябва да го стилизираме. За да изглежда по-добре обаче, ще трябва да стилизираме менюто на части. Първо ще започнем като стилизираме целия списък или елемента <em>ul</em>, а след това ще стилизарем поотделно линковете вътре в списъка - <em>li</em>
+	 	<h4> Как да стилизираме целия списък - ul </h4>
+	 	<ol>
+	 		<li>Да махнем точката отпред, която индикира, че това е списък - това се постига чрез <strong>list-style-type: none;</strong></li>
+	 		<li>Да сложим подходящ цвят на фона -  това се постига чрез <strong>background-color: ..... ;</strong></li>
+	 		<li>Да махнем разстоянието от рамката към центъра на елемента или padding - това се постига чрез <strong>padding: 0px;</strong></li>
+	 		<li>Да зададем колко да бъде широк списъка - може в пиксели - това се постига чрез <strong>width</strong></li>
+	 	</ol></p>
+
+	 		 	<h4> Как да стилизираме линковете към елементите на списъка - li a </h4>
+	 	<ol>
+	 		<li>Да сложим елементите да са еднакво широки винаги без значение колко различно дълъг е текста - това се постига чрез <strong>display:block;</strong></li>
+	 		<li>Да сложим подходящ цвят на шрифта - това се постига чрез <strong> color:.... </strong>;</li>
+	 		<li>Да сложим разстояние от рамката към центъра на елемента или padding - това се постига чрез <strong>padding</strong></li>
+	 		<li>Да да махнем подчертаването на буквите на линковете - това се постига чрез <strong> text-decoration: none;</strong></li>
+	 	</ol></p>
+
+	 	<p>Демонстрация</p>
+	 <ul id="vertical">
+	 	<li><a href=""> Начална страница </a></li>
+	 	<li><a href="">Основни ястия</a> </li>
+	 	<li><a href=""> Салати </a></li>
+	 	<li> <a href=""> Десерти </a></li>
+	 	<li><a href=""> Супи</a></li>
+	 </ul>
+
+	 <p>Какво написахме като код в css файла - за стиловете:</p>
+	<pre> 
+	 ul {
+	 		 list-style-type: none;
+			 background-color: DarkRed;
+			 padding: 0px;
+			 width: 200px;}
+
+	 li a{
+			 display: block;
+ 			 color: LightGray;
+ 			 padding: 15px 15px;
+ 			 text-decoration: none;}
+	</pre>
+ <hr>
+	<h3 id="3">Добавяне на ефекти</h3>
+	<p>Интересното е, че можем да добавяме допълнителни условия, при които да се променя изгледа на един елемент. Например, можем да накараме фона на елемента да се променя, когато сме сложили мишката отгоре. Това се постига чрез така наречените псевдо класове. Те се изписват като след елемента, който искаме да форматираме, добавим : и ключова дума, която да насочи кога се променя изгледа. В случая ще използваме псевдо класът Hover. Ако искаме да се сменя фона, трябва да добавим описание в CSS кода, което да изглежда така: <strong> li a:hover</strong></p>
+
+		<p>Демонстрация</p>
+	<ul id="vrhover">
+	 	<li><a href=""> Начална страница </a></li>
+	 	<li><a href="">Основни ястия</a> </li>
+	 	<li><a href=""> Салати </a></li>
+	 	<li> <a href=""> Десерти </a></li>
+	 	<li><a href=""> Супи</a></li>
+	 </ul>
+
+	 <p>Какво написахме като код в css файла - за стиловете:</p>
+	<pre> 
+	 ul {
+	 		 list-style-type: none;
+			 background-color: DarkRed;
+			 padding: 0px;
+			 width: 200px;}
+
+	 li a{
+			 display: block;
+ 			 color: LightGray;
+ 			 padding: 15px 15px;
+ 			 text-decoration: none;}
+
+ 	li a:hover{
+			font-weight: bold;
+			background-color: FireBrick;
+		}
+	</pre>
+	
+ <hr>
+	<h3 id="4">Създаване на хоризонтално меню</h3>
+	<p>За да напавим менюто ни да се показва хоризонтално, е необходимо да вкараме две свойства: Първото ще се появи при форматирането на целия списък <strong>(ul) - overflow: hidden;</strong> - не показва елементите, които са извън рамката на кутийката. Второто свойство настройва елементите на списъка <strong>(li) да се появяват един до друг - float: left;</strong></p>
+
+		<p>Демонстрация</p>
+	<ul id="horizontal">
+	 	<li><a href=""> Начална страница </a></li>
+	 	<li><a href="">Основни ястия</a> </li>
+	 	<li><a href=""> Салати </a></li>
+	 	<li> <a href=""> Десерти </a></li>
+	 	<li><a href=""> Супи</a></li>
+	 </ul>
+
+	 <p>Какво написахме като код в css файла - за стиловете:</p>
+	<pre> 
+	ul{
+		overflow: hidden;
+		list-style-type: none;
+		background-color: DarkRed;
+		margin: 0px;
+		padding: 0px;
+		}
+	li a{
+		display: block;
+ 		color: LightGray;
+ 		padding: 15px 15px;
+ 		text-decoration: none;
+		}
+	li a:hover{
+		font-weight: bold;
+		background-color: FireBrick;
+		}
+	li{
+		float: left;}
+	</pre>
+	
+</div>
+<a href="#top"><img id="home" src="http://pluspng.com/img-png/home-icon-png-home-house-icon-image-202-512.png"></a>
+</body>
+</html>

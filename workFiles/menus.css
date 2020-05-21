@@ -2,7 +2,7 @@ body {
     background-color: white;
     font-family: Calibri;
     margin-top: 2px;
-    padding: 0px;
+    padding: 10px;
 }
 
 div {
@@ -28,13 +28,14 @@ div {
 #main li a {
     display: inline-block;
     color: White;
-    padding: 15px 15px;
+    padding: 15px;
     text-decoration: none;
 }
 
 #main li a:hover {
     font-weight: bold;
     background-color: DarkGray;
+    font-size: large;
 }
 
 #vertical {
@@ -58,6 +59,7 @@ div {
     background-color: DarkRed;
     width: 20%;
     overflow: hidden;
+    display: inline-block;
 }
 
 #vrhover li a {
@@ -82,10 +84,17 @@ div {
     padding: 0px;
     padding-left: 25%;
     padding-right: 25%;
+    display: inline-block;
+    width: 50%;
+}
+
+#horizontal li {
+    display: inline-block;
+    text-align: center;
 }
 
 #horizontal li a {
-    display: block;
+    display: inline-block;
     color: LightGray;
     padding: 15px 15px;
     text-decoration: none;
@@ -94,10 +103,6 @@ div {
 #horizontal li a:hover {
     font-weight: bold;
     background-color: FireBrick;
-}
-
-#horizontal li {
-    float: left;
 }
 
 #header {

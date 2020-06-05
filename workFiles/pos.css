@@ -14,3 +14,26 @@
     width: 50%;
     height: 100px;
 }
+
+img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+h2 {
+    background-color: yellowgreen;
+    font-size: 40px;
+    width: 500px;
+}
+
+.img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    opacity: 1;
+    left: 300px;
+}

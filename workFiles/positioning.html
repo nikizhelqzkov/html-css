@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<!--position
+static-> работи като default    
+absolute-> мери надолу от последния му родител
+relative-> мери от последното записано нещо
+fixed -> фиксира елемента на дадена позиция
+sticky-> работи като relative, но като се скролне работи като fixed
+-->
+<!--z index
+z-index: число;
+z-index -> казваме му с какъв преоритет е . дефолт е 0. ако е повече от 0 изпъква, а ако е по-малък от 0 се скрива зад даден елемент
+           особено ако се ползва с positioning 
+-->
 <html>
 
 <head>
@@ -15,6 +27,10 @@
         </div>
     </div>
 
+
+    <img src="../images/CSS3_logo_and_wordmark.svg.png" />
+    <img class="img" src="../images/CSS3_logo_and_wordmark.svg.png" />
+    <h2>CSS3 LOGO</h2>
 
 
 </body>

@@ -1,0 +1,330 @@
+h1{
+text-align: center;
+border: 16px double orange;
+background: grey;
+margin: 7px;
+color: solid black;
+height: 40px ;
+}
+
+
+h2{
+text-align: center;
+height: auto;
+border: 13px solid black;
+background: orange;
+color:  black;
+}
+
+
+
+h3{
+color:black ;
+height: auto;
+border: 13px solid black;
+background: orange;
+margin: 7px;
+display: 10px ;
+}
+
+
+
+div{
+padding: 4px;
+background: white
+}
+
+ul{
+text-align: center;
+display: inline-block;
+color: orange;
+height: auto;
+background: black;
+margin: 42px;
+padding: 0px;
+text-decoration: none;
+width: 95%;
+list-style-type: none;
+}
+
+
+img
+{
+margin-left: 25%;
+}
+
+
+ ul li{
+
+display: inline-block;
+color: orange;
+height: auto;
+background: black;
+margin: 0px;
+padding: 10px;
+text-decoration: none;
+
+
+}
+
+
+
+ul li a{
+
+display: inline-block;
+color: orange;
+text-decoration: none;
+padding: 10px;
+}
+
+ul li a:hover {
+background: orange;
+color : black;
+
+}
+
+.rty{
+height: auto;
+background: black;
+margin: 4px;
+padding: 0px;
+width: 25%;
+list-style-type: none;
+text-decoration: none;
+display: block;
+}
+
+.rty li{
+height: auto;
+background: black;
+margin: 0px;
+padding: 10px;
+text-decoration: none;
+list-style-type: none;
+display: block;
+}
+
+.rty li a{
+color: orange;
+padding: 10px;
+text-decoration: none;
+list-style-type: none;
+display: block;
+
+}
+
+.rty li a:visited
+{
+color: orange;
+}
+ 
+.rty li a:hover
+{
+background: orange;
+color : black;
+display: inline-block;
+}
+
+.qwe
+{
+display: inline-block;
+text-align: left;
+width: 40%;
+}
+
+.uio
+{
+border: 13px solid black;
+width:35%;
+background: orange;
+}
+.gfh
+{
+display: inline-block;
+border: 10px solid black;
+}
+
+.kar
+{
+display: inline-block;
+width: 3%;
+}
+
+.ytr{
+height: 47px;
+background: black;
+margin: 4px;
+padding: 0px;
+width: 70px;
+list-style-type: none;
+text-decoration: none;
+display: block;
+}
+
+.ytr li{
+height: auto;
+background: black;
+margin: 0px;
+padding: 5px;
+text-decoration: none;
+list-style-type: none;
+display: block;
+}
+
+.ytr li a{
+color: orange;
+padding: 10px;
+text-decoration: none;
+list-style-type: none;
+display: block;
+
+}
+
+.ytr li a:visited
+{
+color: orange;
+}
+ 
+.ytr li a:hover
+{
+background: orange;
+color : black;
+display: inline-block;
+}
+
+.rat
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.bad
+{
+	
+	width: 100%;
+}
+
+.led
+{
+	text-align: center;
+	border-bottom:250px solid white; 
+}
+ 
+.mad
+{
+	border: 15px solid black;
+	width: 50%;
+}
+
+.ral
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.bal
+{
+	
+	width: 100%;
+}
+
+.lel
+{border-bottom:250px solid white; 
+	text-align: center;
+}
+ 
+.map
+{
+	border: 15px solid black;
+	width: 50%;
+}
+
+.rap
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.bap
+{
+	
+	width: 100%;
+}
+
+.lep
+{
+
+	text-align: center;
+}
+ 
+ .mal
+ {
+
+ border: 15px solid black;
+	width: 50%;
+ }
+
+
+
+
+
+
+ td
+ {
+ 	background: black;
+ 	color: orange;
+ 	border: 15px solid orange;
+ }
+
+th
+ {
+ 	background: black;
+ 	color: orange;
+ 	border: 15px double orange;
+ }
+
+.nb
+{
+	text-align: center;
+	color:grey;
+}
+
+.ne 
+{
+	width: 50%;
+	border: 5px solid black;
+}
+
+.toto
+{
+	background: orange;
+	border:15px solid black;
+}
+
+.gh
+{
+	width: 50%;
+	border: 15px solid black;
+}
+
+.op
+{
+	background: orange;
+	display: block;
+	color: red;
+}
+
+.re
+{
+	text-align:left;
+	background: orange;
+	display: block;
+	color: red;
+}
+
+.jojo
+{
+	border: 50px solid white;
+	width: 50%;
+	color: white;
+}

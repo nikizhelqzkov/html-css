@@ -1,0 +1,132 @@
+.header {
+    width: 632px;
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+.fon {
+    background: url(background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.english {
+    background-color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.english_2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-top: 100px;
+}
+
+.english_3 {
+    float: left;
+}
+
+.english_3 a {
+    display: block;
+    color: orange;
+    background-color: black;
+    text-align: center;
+    border: solid;
+    border-color: orange;
+    padding: 14px 289px;
+    text-decoration: none;
+    padding-bottom: 18px;
+    margin: 0px;
+}
+
+.english_3 a:hover {
+    background-image: linear-gradient(black, orange);
+    color: black;
+}
+
+.russia {
+    background-color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.russia_2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-top: 100px;
+}
+
+.russia_3 {
+    float: left;
+}
+
+.russia_3 a {
+    display: block;
+    color: orange;
+    background-color: black;
+    text-align: center;
+    border: solid;
+    border-color: orange;
+    padding: 14px 285px;
+    text-decoration: none;
+    padding-bottom: 18px;
+    margin: 0px;
+}
+
+.russia_3 a:hover {
+    background-image: linear-gradient(black, orange);
+    color: black;
+}
+
+.bulgaria {
+    background-color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.bulgaria_2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-top: 100px;
+}
+
+.bulgaria_3 {
+    float: left;
+}
+
+.bulgaria_3 a {
+    display: block;
+    color: orange;
+    background-color: black;
+    text-align: center;
+    border: solid;
+    border-color: orange;
+    padding: 14px 278px;
+    text-decoration: none;
+    padding-bottom: 18px;
+    margin: 0px;
+}
+
+.bulgaria_3 a:hover {
+    background-image: linear-gradient(black, orange);
+    color: black;
+}

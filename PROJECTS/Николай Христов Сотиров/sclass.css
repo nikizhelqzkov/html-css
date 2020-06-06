@@ -1,0 +1,26 @@
+body{
+	background-image: url('s.jpg');
+}
+
+h1{
+	font-size: 100px;
+	font-family: Arial;
+	color: white;
+	background-color: red;
+	display: inline;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    background-color: red;
+}
+a{
+	font-family: Arial;
+	background-color: red;
+	color: white;
+	font-size: 25px;
+    text-decoration: none;
+}

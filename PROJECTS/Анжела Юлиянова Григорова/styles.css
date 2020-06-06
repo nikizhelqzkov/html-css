@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background-color: yellow;
+    margin: auto;
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 20px;
+}
+
+
+/*Използвано е нещо без да се знае (display:flex)*/

@@ -1,0 +1,67 @@
+.mainsite{
+    background:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/597d5671-61be-4123-97f7-e6382d3afb4d/d462i1r-63f660df-85f8-4a96-842e-3f0fc96c6561.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU5N2Q1NjcxLTYxYmUtNDEyMy05N2Y3LWU2MzgyZDNhZmI0ZFwvZDQ2Mmkxci02M2Y2NjBkZi04NWY4LTRhOTYtODQyZS0zZjBmYzk2YzY1NjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eAk_OBQhZ7DeMHS4JN8dDm-hA1dPGTLCtT6DTZkiLIw) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    text-align:center;
+}
+.mainsite p{
+    margin-top:9%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.mainsite h4{
+    margin-top:14%;
+}
+.secondary{
+    text-align:center;
+    background:url(https://images.alphacoders.com/438/thumb-350-438493.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.secondary div{
+    margin-bottom: 150px;
+}
+ul{
+    display:inline-block;
+    width: 50%;
+    text-align: center;
+}
+ul a li{
+    display:inline-block;
+    text-align: center;
+}
+.lione{
+    width: 17%;
+    padding-top: 0%;
+    background-color: white;
+}
+.litwo{
+    width: 17%;
+    padding-top: 1%;
+    background-color: white;
+}
+.lithree{
+    width: 17%;
+    padding-top: 2%;
+    background-color: white;
+}
+.lifour{
+    width: 17%;
+    padding-top: 3%;
+    background-color: white;
+}
+.lifive{
+    width: 17%;
+    padding-top: 4%;
+    background-color: white;
+}
+.ul{
+    background-color: transparent;
+    padding: 0.005%;
+    margin-top: -0.75%;
+    text-align: center;
+}

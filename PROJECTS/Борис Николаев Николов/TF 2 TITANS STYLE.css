@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://www.digipen.edu/sites/default/files/public/img/news/01-hero/digipen-grads-get-in-on-future-of-first-person-shooters-respawn-entertainment.jpg);
+}
+
+#title {
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: rgb(0, 153, 255);
+    border: 7px solid transparent;
+    border-image: url(https://us.123rf.com/450wm/number168/number1681610/number168161000019/64460825-abstract-molecule-structure-on-dark-blue-color-background-vector-illustration-of-communication-netwo.jpg?ver=6) 20 round;
+    padding: 4px;
+}
+
+#info {
+    text-align: center;
+    color: rgb(0, 153, 255);
+}
+
+#backlink {
+    color: rgb(0, 153, 255);
+    padding: 4px;
+    /*lipsa na ;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+    text-align: center;
+    display: block;
+    background-color: black;
+    border: 7px solid transparent;
+    border-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700357392-1200x675.jpg)10 round;
+}
+
+#link {
+    text-decoration: none;
+}

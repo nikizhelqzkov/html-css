@@ -1,330 +1,275 @@
-h1{
-text-align: center;
-border: 16px double orange;
-background: grey;
-margin: 7px;
-color: solid black;
-height: 40px ;
+h1 {
+  text-align: center;
+  border: 16px double orange;
+  background: grey;
+  margin: 7px;
+  color: solid black;
+  height: 40px;
 }
 
-
-h2{
-text-align: center;
-height: auto;
-border: 13px solid black;
-background: orange;
-color:  black;
+h2 {
+  text-align: center;
+  height: auto;
+  border: 13px solid black;
+  background: orange;
+  color: black;
 }
 
-
-
-h3{
-color:black ;
-height: auto;
-border: 13px solid black;
-background: orange;
-margin: 7px;
-display: 10px ;
+h3 {
+  color: black;
+  height: auto;
+  border: 13px solid black;
+  background: orange;
+  margin: 7px;
+  display: 10px;
 }
 
-
-
-div{
-padding: 4px;
-background: white
+div {
+  padding: 4px;
+  background: white;
 }
 
-ul{
-text-align: center;
-display: inline-block;
-color: orange;
-height: auto;
-background: black;
-margin: 42px;
-padding: 0px;
-text-decoration: none;
-width: 95%;
-list-style-type: none;
+ul {
+  text-align: center;
+  display: inline-block;
+  color: orange;
+  height: auto;
+  background: black;
+  margin: 42px;
+  padding: 0px;
+  text-decoration: none;
+  width: 95%;
+  list-style-type: none;
 }
 
-
-img
-{
-margin-left: 25%;
+img {
+  margin-left: 25%;
 }
 
-
- ul li{
-
-display: inline-block;
-color: orange;
-height: auto;
-background: black;
-margin: 0px;
-padding: 10px;
-text-decoration: none;
-
-
+ul li {
+  display: inline-block;
+  color: orange;
+  height: auto;
+  background: black;
+  margin: 0px;
+  padding: 10px;
+  text-decoration: none;
 }
 
-
-
-ul li a{
-
-display: inline-block;
-color: orange;
-text-decoration: none;
-padding: 10px;
+ul li a {
+  display: inline-block;
+  color: orange;
+  text-decoration: none;
+  padding: 10px;
 }
 
 ul li a:hover {
-background: orange;
-color : black;
-
+  background: orange;
+  color: black;
 }
 
-.rty{
-height: auto;
-background: black;
-margin: 4px;
-padding: 0px;
-width: 25%;
-list-style-type: none;
-text-decoration: none;
-display: block;
+.rty {
+  height: auto;
+  background: black;
+  margin: 4px;
+  padding: 0px;
+  width: 25%;
+  list-style-type: none;
+  text-decoration: none;
+  display: block;
 }
 
-.rty li{
-height: auto;
-background: black;
-margin: 0px;
-padding: 10px;
-text-decoration: none;
-list-style-type: none;
-display: block;
+.rty li {
+  height: auto;
+  background: black;
+  margin: 0px;
+  padding: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
 }
 
-.rty li a{
-color: orange;
-padding: 10px;
-text-decoration: none;
-list-style-type: none;
-display: block;
-
+.rty li a {
+  color: orange;
+  padding: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
 }
 
-.rty li a:visited
-{
-color: orange;
-}
- 
-.rty li a:hover
-{
-background: orange;
-color : black;
-display: inline-block;
+.rty li a:visited {
+  color: orange;
 }
 
-.qwe
-{
-display: inline-block;
-text-align: left;
-width: 40%;
+.rty li a:hover {
+  background: orange;
+  color: black;
+  display: inline-block;
 }
 
-.uio
-{
-border: 13px solid black;
-width:35%;
-background: orange;
-}
-.gfh
-{
-display: inline-block;
-border: 10px solid black;
+.qwe {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
 }
 
-.kar
-{
-display: inline-block;
-width: 3%;
+.uio {
+  border: 13px solid black;
+  width: 35%;
+  background: orange;
+}
+.gfh {
+  display: inline-block;
+  border: 10px solid black;
 }
 
-.ytr{
-height: 47px;
-background: black;
-margin: 4px;
-padding: 0px;
-width: 70px;
-list-style-type: none;
-text-decoration: none;
-display: block;
+.kar {
+  display: inline-block;
+  width: 3%;
 }
 
-.ytr li{
-height: auto;
-background: black;
-margin: 0px;
-padding: 5px;
-text-decoration: none;
-list-style-type: none;
-display: block;
+.ytr {
+  height: 47px;
+  background: black;
+  margin: 4px;
+  padding: 0px;
+  width: 70px;
+  list-style-type: none;
+  text-decoration: none;
+  display: block;
 }
 
-.ytr li a{
-color: orange;
-padding: 10px;
-text-decoration: none;
-list-style-type: none;
-display: block;
-
+.ytr li {
+  height: auto;
+  background: black;
+  margin: 0px;
+  padding: 5px;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
 }
 
-.ytr li a:visited
-{
-color: orange;
-}
- 
-.ytr li a:hover
-{
-background: orange;
-color : black;
-display: inline-block;
+.ytr li a {
+  color: orange;
+  padding: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
 }
 
-.rat
-{
-	display: inline-block;
-	width: 100%;
+.ytr li a:visited {
+  color: orange;
 }
 
-.bad
-{
-	
-	width: 100%;
+.ytr li a:hover {
+  background: orange;
+  color: black;
+  display: inline-block;
 }
 
-.led
-{
-	text-align: center;
-	border-bottom:250px solid white; 
-}
- 
-.mad
-{
-	border: 15px solid black;
-	width: 50%;
+.rat {
+  display: inline-block;
+  width: 100%;
 }
 
-.ral
-{
-	display: inline-block;
-	width: 100%;
+.bad {
+  width: 100%;
 }
 
-.bal
-{
-	
-	width: 100%;
+.led {
+  text-align: center;
+  border-bottom: 250px solid white;
 }
 
-.lel
-{border-bottom:250px solid white; 
-	text-align: center;
-}
- 
-.map
-{
-	border: 15px solid black;
-	width: 50%;
+.mad {
+  border: 15px solid black;
+  width: 50%;
 }
 
-.rap
-{
-	display: inline-block;
-	width: 100%;
+.ral {
+  display: inline-block;
+  width: 100%;
 }
 
-.bap
-{
-	
-	width: 100%;
+.bal {
+  width: 100%;
 }
 
-.lep
-{
-
-	text-align: center;
-}
- 
- .mal
- {
-
- border: 15px solid black;
-	width: 50%;
- }
-
-
-
-
-
-
- td
- {
- 	background: black;
- 	color: orange;
- 	border: 15px solid orange;
- }
-
-th
- {
- 	background: black;
- 	color: orange;
- 	border: 15px double orange;
- }
-
-.nb
-{
-	text-align: center;
-	color:grey;
+.lel {
+  border-bottom: 250px solid white;
+  text-align: center;
 }
 
-.ne 
-{
-	width: 50%;
-	border: 5px solid black;
+.map {
+  border: 15px solid black;
+  width: 50%;
 }
 
-.toto
-{
-	background: orange;
-	border:15px solid black;
+.rap {
+  display: inline-block;
+  width: 100%;
 }
 
-.gh
-{
-	width: 50%;
-	border: 15px solid black;
+.bap {
+  width: 100%;
 }
 
-.op
-{
-	background: orange;
-	display: block;
-	color: red;
+.lep {
+  text-align: center;
 }
 
-.re
-{
-	text-align:left;
-	background: orange;
-	display: block;
-	color: red;
+.mal {
+  border: 15px solid black;
+  width: 50%;
 }
 
-.jojo
-{
-	border: 50px solid white;
-	width: 50%;
-	color: white;
+td {
+  background: black;
+  color: orange;
+  border: 15px solid orange;
+}
+
+th {
+  background: black;
+  color: orange;
+  border: 15px double orange;
+}
+
+.nb {
+  text-align: center;
+  color: grey;
+}
+
+.ne {
+  width: 50%;
+  border: 5px solid black;
+}
+
+.toto {
+  background: orange;
+  border: 15px solid black;
+}
+
+.gh {
+  width: 50%;
+  border: 15px solid black;
+}
+
+.op {
+  background: orange;
+  display: block;
+  color: red;
+}
+
+.re {
+  text-align: left;
+  background: orange;
+  display: block;
+  color: red;
+}
+
+.jojo {
+  border: 50px solid white;
+  width: 50%;
+  color: white;
 }

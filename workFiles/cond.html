@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let arr = [74,5,4,5,5,5,654,465,41,456,45,5,8,41,1];
+        if(arr[0]>=arr[arr.length-1]){
+            let res = arr[0];
+            arr[0] = arr[arr.length-1];
+            arr[arr.length-1]  = res;
+        }
+        else{
+            console.log('it is false');
+        }
+        console.log(arr[0],arr[arr.length-1]);
+    </script>
+</body>
+
+</html>

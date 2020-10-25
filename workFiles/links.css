@@ -1,0 +1,28 @@
+body{
+	background-color: pink;	
+}
+h1{
+	text-align: center;
+}
+p{
+	font-size: 22px;
+	color: white;
+}
+
+a:link, a:visited{
+	color: green;
+	background-color: red;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+h2 a:link, h2 a:visited{
+	color: skyblue;
+	background-color: orange;
+}
+
+a:hover, h2 a:hover{
+	background-color: skyblue;
+	color: red;
+}
+

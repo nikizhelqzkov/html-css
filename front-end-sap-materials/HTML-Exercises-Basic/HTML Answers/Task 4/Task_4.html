@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic Form</title>
+</head>
+<body>
+	<form method="post" action="#">
+		<!--The value of the 'for' attribute of the label and the 'id' attribute of the input should be the same in order to bound the label to the input-->
+		<label for="firstname">First name:</label>
+		<br>
+		<!--We add name attibute because only form elements with a name attribute will have their values passed when submitting a form.-->
+		<input type="text" name="firstname" id="firstname">
+		<br>
+		<label for="lastname">Last name:</label>
+		<br>
+		<input type="text" name="lastname" id="lastname">
+		<br>
+		<!-- The radio buttons should have the same value for the 'name' attribute in order to be treated as a group. When radio buttons are in a group, only one radio button can be selected at the same time.-->
+		<!-- checked attribute represents the currently-selected item in the group -->
+		<input type="radio" name="sex" value="male" id="male" checked>
+		<label for="male">Male</label>
+		<br>
+		<input type="radio" name="sex" value="female" id="female">
+		<label for="female">Female</label>
+		<br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.headings:hover,.main{
+    font-size: 15px;
+    background-color: chartreuse;
+}
+#special-image{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px red solid;
+
+}
+h2{
+
+}
+.zaglavie{
+
+}
+
+.skyblue-list li{
+    background-color: skyblue;
+}
+.Green-list li{
+    background-color: springgreen;
+    font-weight: bold;
+}
+.headers{
+    background-color: violet;
+}
+.headers-2{
+    background-color: burlywood;
+}
+
+#picture-info{
+    background-color: rgb(233, 179, 233);
+    width: 100px;
+    text-align: center;
+}
+#picture{
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+}
+#my-picture{
+    background-color: wheat;
+    border: 3px solid skyblue;
+    width: 120px;
+}

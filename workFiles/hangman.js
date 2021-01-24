@@ -4,7 +4,7 @@ if (name === null) {
 } else {
   alert("Hello " + name);
 }
-const words = ["tomato", "fish", "javascript", "html", "football",'ItStep'];
+const words = ["tomato", "fish", "javascript", "html", "football", 'ItStep'];
 //Math.floor(Math.random()); // (0;1);
 let word = words[Math.floor(Math.random() * words.length)];
 console.log(word);
@@ -46,9 +46,9 @@ if (starting == true) {
   if (remainingLetters == 0 && tries > 0) {
     alert(
       name +
-        "!!! You won the game! The word was: " +
-        word +
-        "\nFor new game click f5"
+      "!!! You won the game! The word was: " +
+      word +
+      "\nFor new game click f5"
     );
   } else if (tries <= 0) {
     alert(":( You LOST!!!\nTry again!!!\nFor new game click f5");

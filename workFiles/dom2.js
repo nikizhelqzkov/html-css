@@ -56,7 +56,7 @@ button.addEventListener("click", function () {
   }
 });
 button2.addEventListener("click", function () {
-  if( img.style.display === "none"wwwwwww)
+  if( img.style.display === "none")
   img.style.display = "inline-block";
 });
 

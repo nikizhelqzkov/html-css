@@ -1,92 +1,91 @@
 body {
-    background-color: white;
-    font-family: Calibri;
-    margin-top: 2px;
-    padding: 10px;
+  background-color: white;
+  font-family: Calibri;
+  margin-top: 2px;
+  padding: 10px;
 }
 
-div {
-    background-color: LightGray;
-    padding: 5px;
+#page {
+  background-color: LightGray;
+  padding: 5px;
 }
 
 #main {
-    list-style-type: none;
-    background-color: Black;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+  list-style-type: none;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 #main li {
-    display: inline-block;
+  display: inline-block;
 }
 
 #main li a {
-    display: inline-block;
-    color: White;
-    padding: 15px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
 }
 
 #main li a:hover {
-    font-weight: bold;
-    background-color: DarkGray;
-    font-size: 20px;
+  font-weight:bold;
+  background-color: DarkGray;
+  font-size: 20px;
 }
 
-
 #vrhover {
-    padding: 0px;
-    list-style-type: none;
-    background-color: DarkRed;
-    width: 24%;
-    overflow: hidden;
-    display: block;
+  padding: 0px;
+  list-style-type: none;
+  background-color: DarkRed;
+  width: 24%;
+  overflow:hidden;
+  display: block;
 }
 
 #vrhover li a {
-    display: inline-block;
-    color: LightGray;
-    padding: 15px;
-    text-decoration: none;
-    overflow: hidden;
-    width: 100%;
+  display: inline-block;
+  color: LightGray;
+  padding: 15px;
+  text-decoration: none;
+  overflow: hidden;
+  width: 100%;
 }
 
 #vrhover li a:hover {
-    font-weight: bold;
-    background-color: FireBrick;
+  font-weight: bold;
+  background-color: FireBrick;
 }
 
 #horizontal {
-    overflow: hidden;
-    list-style-type: none;
-    background-color: DarkRed;
-    margin: 0px;
-    padding: 0px;
-    padding-left: 25%;
-    padding-right: 25%;  
+  overflow: hidden;
+  list-style-type: none;
+  background-color: DarkRed;
+  margin: 0px;
+  padding: 0px 25%;
+  /* padding-left: 25%;
+  padding-right: 25%; */
 }
 
 #horizontal li {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 #horizontal li a {
-    display: inline-block;
-    color: LightGray;
-    padding: 15px;
-    text-decoration: none;
+  display: inline-block;
+  color: LightGray;
+  padding: 15px;
+  text-decoration: none;
 }
 
 #horizontal li a:hover {
-    font-weight: bold;
-    background-color: FireBrick;
+  font-weight: bold;
+  background-color: FireBrick;
 }
 
 #header {
-    width: 100%;
-    height: 150px;
+  width: 100%;
+  height: 150px;
 }

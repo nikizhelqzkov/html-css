@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     border:52px dotted rgb(250, 250, 0);
+    font-weight:lighter;
 }
 ul{
     list-style-type: none;

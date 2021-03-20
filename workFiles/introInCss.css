@@ -1,0 +1,27 @@
+h1,p{
+    background-color:aquamarine;
+    text-align:center;
+}
+img{
+    width:400px;
+    height:400px;
+    border: 10px cyan;
+    border-style: inset double;
+}
+p{
+    color:rgb(156, 223, 32);
+    border:4px orange;
+    border-style: dashed solid;
+    font-weight: bold;
+    font-size:15px;
+}
+ul{
+    background-color:red;
+}
+ul li{
+    color: rgba(252, 166, 7, 0.815);
+    list-style:lower-greek ;
+}
+ol li{
+    list-style:upper-roman;
+}

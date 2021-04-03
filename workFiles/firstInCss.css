@@ -1,0 +1,83 @@
+h1,p.other {
+    background-color: rgb(50, 182, 205);
+    text-align: center;
+    color: red;
+    font-weight: lighter;
+}
+
+p.other {
+    font-size: 20px;
+    color: gold;
+    font-weight: bold;
+    border-bottom:5px solid rgba(77, 17, 241, 0.808); 
+    border-radius: 4px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border: 10px cyan;
+    border-style: inset groove;
+}
+li{
+  color:cornflowerblue;   
+}
+ul{
+    background-color: brown;
+}
+ul li{
+    list-style:lower-greek;
+}
+a{
+   text-decoration: none;
+   color: orchid; 
+}
+a:hover{
+    color:red;
+    font-size: 20px;
+}
+p.other:hover{
+    color:red;
+    font-size: 20px;
+}
+h4{
+    border:5px solid palevioletred;
+    border-radius: 30%;
+    width: 20%;
+    
+}
+
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    background-color: coral;    
+}
+td{
+    background-color:darkcyan;
+}
+table{
+    width: 100%;
+}
+.beauty{
+    background-color:darkgoldenrod;
+    color: blueviolet;
+    font-size:30px;
+}
+
+h4.beauty{
+    border-radius: 0;
+    width: 300px;
+}
+#water{
+    background-color: blue;
+    text-align: center;
+}
+#water:hover{
+    background-color:cyan;
+    font-size: 20px;
+    border-radius: 60%;
+    width: 700px;
+    
+}

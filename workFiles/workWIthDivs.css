@@ -1,0 +1,30 @@
+.main{
+    background-color: palegreen;
+    width:320px;
+    border:10px solid rgb(192, 35, 35);
+}
+.main > p {
+    text-align: center;
+}
+
+.main > img{
+    border:10px solid rgb(194, 4, 194);
+}
+#main2{
+    border: 0;
+}
+#g{
+    display: block;
+    margin: auto;
+}
+.inlbl{
+    display: inline-block;
+    margin-right: 50px;
+}
+.none{
+    display: none;
+}
+#specialPadding{
+    padding: 50px;
+    margin: 20px 30px 40px 50px;
+}

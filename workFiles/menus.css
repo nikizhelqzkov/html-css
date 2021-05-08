@@ -1,17 +1,17 @@
 body {
   background-color: white;
-  font-family: Calibri;
+  font-family: "Calibri";
   margin-top: 2px;
   padding: 10px;
 }
 
 #page {
   background-color: LightGray;
-  padding: 5px;
+  padding: 10px;
 }
 
 #main {
-  list-style-type: none;
+  list-style-type:none;
   background-color: black;
   margin: 0px;
   padding: 0px;
@@ -63,14 +63,16 @@ body {
   list-style-type: none;
   background-color: DarkRed;
   margin: 0px;
-  padding: 0px 25%;
-  /* padding-left: 25%;
-  padding-right: 25%; */
+  padding: 0px 25%;/*1 nachin za centralizirane*/
+  /* padding-left: 25%; 2 nachin za centralizirane
+  padding-right: 25%; 2 nachin za centralizirane*/
 }
-
+/* #horizontal div{  3 nachin za centralirane
+  margin: auto;
+  width: 50%;
+} */
 #horizontal li {
   display: inline-block;
-  text-align: center;
 }
 
 #horizontal li a {

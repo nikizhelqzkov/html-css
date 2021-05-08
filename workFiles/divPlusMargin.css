@@ -1,0 +1,44 @@
+p{
+    text-align: center;
+    background-color:chartreuse;
+    color:coral;
+}
+
+.green{
+    font-size:29px;
+    background-color: green;
+    color:crimson;
+}
+.blue{
+    font-size:45px;
+    background-color: blue;
+}
+#Special{
+    background-color: aquamarine;
+}
+#SpecialBox{
+    width:220px;
+    height: 250px;
+    border: 10px dotted skyblue;
+    text-align: center;
+    background-color:aqua;
+    display:inline-block;
+    padding:30px;
+    margin:30px;
+}
+#SpecialBox img{
+    border: 10px solid greenyellow;  
+}
+#SpecialBox h3{
+    background-color: aqua;
+    color: coral;
+    font-size:20px;
+    margin-top: 0;
+}
+span{
+    background-color: aquamarine;
+}
+#img{
+    display: block;
+    margin: auto;
+}

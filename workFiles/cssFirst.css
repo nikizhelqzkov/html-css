@@ -1,0 +1,19 @@
+body{
+  background-color: aqua;
+}
+
+h2 {
+  background-color: blueviolet;
+  font-size: 16px;
+  text-align: center;
+  color: chartreuse;
+}
+p{
+  font-size:50px;
+  color:red;
+  background-color:blue;
+  border:23px ridge rgba(63, 214, 43, 0.479);
+}
+ol{
+  list-style-type: none;
+}

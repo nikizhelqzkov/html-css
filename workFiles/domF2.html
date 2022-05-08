@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .subtitle {
+            color: red;
+        }
+        #rn, .number{
+            text-align: center;
+        }
+        #hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1 id="h1First">Hello dom</h1>
+        <h2 class="subtitle">Hello dom h2</h2>
+        <p class="specialParagapraph">Some info</p>
+        <h3 id="rn">Random numbers</h3>
+        
+    </div>
+    <!-- When press the button it will add paragraph with random number betwenn 0 and 100 -->
+   
+    <button onClick="addRandomH3Elements()">Add random number</button>
+    <button onClick="removeLastRandomH3Element()">Remove last random number</button>
+    <button onClick="removeAllRandomH3Elements()">Remove all random numbers</button>
+    <!-- <button onClick="showHidden()">Show hidden</button> -->
+    <button id="show">Show hidden</button>
+    <button onClick="hide()">Hide Element</button>
+    <div id="hidden">
+        <h2>Hello  world</h2>
+        <p>rwhknjeqolikfopw lp[dq[;'</p>
+    </div>
+    <script src="domF2.js"></script>
+</body>
+</html>

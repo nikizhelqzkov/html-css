@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+        #us{
+            display: block;
+        
+            margin: 0 auto;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form method="post">
+      <label for="username">Username</label><br />
+      <input id="username" name="username" type="text" required/><br />
+      <input id="us" name="username" type="text" value="Test" disabled/><br />
+      <label for="password">Password</label><br />
+      <input id="password" placeholder="Въведи парола" type="password" name="password" required />
+      <br />
+      <label for="check">Приемам условията в договора</label>
+      <input id="check" type="checkbox" /><br />
+      <h3>На колко години си</h3>
+      <label for="y">0-18</label>
+      <input id="y" type="radio" name="IsOk" /><br />
+      <label for="m">18-40</label>
+      <input id="m" type="radio" name="IsOk" /><br />
+      <label for="d">40+</label>
+      <input id="d" type="radio" name="IsOk" />
+      <br />
+      <textarea rows="10" cols="30">
+          Въведи коментар
+      </textarea>
+      <br/>
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>

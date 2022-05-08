@@ -14,8 +14,6 @@ console.log(masiv[masiv.length-2]);
 
 
 
-alo.bg
-
 
 
 

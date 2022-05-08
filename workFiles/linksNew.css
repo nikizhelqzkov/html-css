@@ -1,0 +1,48 @@
+h1 {
+  color: chartreuse;
+  font-size: 30px;
+  background-color:aqua;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: 5px solid red;
+}
+a{
+    background-color:red;
+    border: 5px ridge lightblue;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-size:20px;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    text-decoration:line-through red;
+    color:white;
+    background-color:aqua;
+    font-size: 30px;
+}
+ul{
+    list-style:upper-roman;
+    background-color:blueviolet;
+}
+li{
+    color:white;
+}
+img{
+    width:50%;
+    height:200px;
+}
+/* body{
+    background-image:url("../images/CSS3_logo_and_wordmark.svg.png");
+    background-size:200px;
+    background-repeat:no-repeat;
+    background-repeat:repeat-y;
+} */
+
+h2,div{
+    font-size:30px;
+}
+div{
+    font-weight:bold;
+}

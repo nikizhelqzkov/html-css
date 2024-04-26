@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 32px;
+}
+
+p {
+  color: #0000ff;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.first-paragraph {
+  color: #00ff00;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  background-color: #c18639;
+}
+
+#special {
+  color: #ff00ff;
+  font-weight: bold;
+  background-color: #39c1c1;
+  position: sticky;
+  top: 0;
+}
+
+div {
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+  background-color: #c1c139;
+}
+
+.nav {
+  display: inline-block;
+  width: 40%;
+  background-color: #0000ff;
+  color: #fff;
+  padding: 0;
+}
+
+.nav .nav-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  background-color: #ff0000;
+}
+
+.nav .nav-item:hover {
+  background-color: #39c1c1;
+}
+
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: #ff0000;
+  position: relative;
+}
+
+.parent .child {
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.parent2 {
+  width: 700px;
+  height: 800px;
+  background-color: #ddf000;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 100%;
+    display: block;
+  }
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  background-color: #00ff00;
+  height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex .flex-items {
+  background-color: #ff00ff;
+  padding: 10px;
+  border: 2px solid #000;
+}
